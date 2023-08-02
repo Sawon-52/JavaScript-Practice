@@ -70,6 +70,31 @@ var value2 = 20;
 var checkValue = (value1 < value2);
 console.log(checkValue);
 
+// >=
+// <=
+
+// logical oparetor
+// and && oparetor , true && true than ans is true
+// true && false than false
+
+var value1 = 10;
+var value2 = 20;
+var value3 = 40;
+var value4 = 50;
+
+var checkValue = (value1 < value2 && value3 < value4);
+console.log(checkValue);
+
+// true && false than false
+var value1 = 10;
+var value2 = 20;
+var value3 = 40;
+var value4 = 50;
+
+var checkValue = (value1 < value2 && value3 > value4);
+console.log(checkValue);
+
+
 
 
 
