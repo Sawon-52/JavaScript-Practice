@@ -60,18 +60,22 @@ if (whatDate === 'Friday'){
 // নেস্টিং কন্ডিশনাল স্টেট্মেন্ট
 // নেস্টিং মানে হচ্ছে একটা কন্ডিশনাল স্টেটমেন্ট এর ভিতরে আরেকটা কন্ডিশনাল স্টেটমেন্ট। এবং এটা সম্পূর্নরূপে বৈধ। আপনি যেভাবে ইচ্ছা শুধু if এর ভিতরেও else if…else বা else if ইউজ করতে পারবেন বা অন্যগুলার ভিতরেও শুধু if ইউজ করতে পারবেন এখানে ধরা বাধার কোনো নিয়ম নাই।
 
-
 var age = 10;
 
 if(age > 18){
     if(age > 30){
         console.log('You are complete man!');
     } else if(age > 60){
-        console.log('You are old Man!')
+        console.log('You are old Man!');
     }
 
 }else{
     console.log('You are a Child');
 }
+
+
+
+
+
 
 
