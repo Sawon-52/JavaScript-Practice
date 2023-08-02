@@ -122,6 +122,13 @@ var b = 20;
 var c = a < b ? 100:200;
 console.log(c);
 
+// othrs oparetor 
+
+// typeof oparetor 
+
+var personName = "mehedi";
+console.log(typeof(personName));
+
 
 
 
