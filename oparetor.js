@@ -94,6 +94,35 @@ var value4 = 50;
 var checkValue = (value1 < value2 && value3 > value4);
 console.log(checkValue);
 
+// || (or) oparetor 
+
+// true || true than true
+// true || false than true
+// false || false than false 
+
+// ! not 
+// !true than false
+// !false than true
+
+// assignment oparetor
+
+// = simple assignmet oparetor
+// += plus equal
+// -=
+// *=
+// /=
+// %= 
+
+//ternary oparetor 
+//(a > b ? value1: value2)
+// if condition is true than value1 or value2
+
+var a = 10;
+var b = 20;
+var c = a < b ? 100:200;
+console.log(c);
+
+
 
 
 
