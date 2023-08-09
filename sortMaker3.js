@@ -30,6 +30,6 @@ function sortMaker(arr){
         
 }
 
-var arr =[1];
+var arr =[3,6];
 var result = sortMaker(arr);
 console.log(result);
