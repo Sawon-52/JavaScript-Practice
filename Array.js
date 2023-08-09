@@ -23,7 +23,7 @@ for(var i = 0; i<studentNameLength; i++){
 studentName.push('Mehedi');
 console.log(studentName);
 
-// add items in array but first position
+// add items in array but first position 
 studentName.unshift('Soaibur');
 console.log(studentName);
 
