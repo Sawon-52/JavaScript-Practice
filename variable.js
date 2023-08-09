@@ -30,5 +30,9 @@ console.log(typeof(somthng));
 var name1 = null;
 console.log(typeof(name1));
 
+//non-primitive data type are
+//we cannot directly add value.
+//array , object,  function
+
 
 
