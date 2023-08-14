@@ -54,10 +54,11 @@ function sortMaker(arr){
 
     }
     else{
-        return('Must be Array take two element');
+        return('The Array Must contain Two elements');
        
     }     
 }
+
 
 /*<=========Problem-04 Solution======>*/
 function findAddress(obj) {
@@ -75,7 +76,7 @@ function findAddress(obj) {
 /*<=========Problem-05 Solution======>*/
 function canPay(changeArray, totalDue) {
     if(changeArray.length == 0){
-        return ('Insert Some element in Array');
+        return ('Some elements must be placed in the Array');
     }
     else{
         var total =0;
@@ -91,6 +92,8 @@ function canPay(changeArray, totalDue) {
     }
 
 }
+
+
 
 
 

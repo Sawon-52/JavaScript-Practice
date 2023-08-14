@@ -1,8 +1,7 @@
 function sortMaker(arr){
-
     if(arr.length >1 && arr.length <= 2){
         for(let i= 0; i<2; i++){
-            if(arr[i] < 0 || arr[i+1] <0){
+            if(arr[i] < 0 || arr[i+1] < 0){
                 return ('Invalid Input');
             }
             else if(arr[i]==arr[i+1]){
@@ -20,14 +19,11 @@ function sortMaker(arr){
         }
         return arr;
 
-        
     }
-
     else{
-        return('all time take 2 element');
+        return('Must be Array take two element');
        
-    }
-        
+    }     
 }
 
 var arr =[3,6];

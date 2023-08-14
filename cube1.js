@@ -1,4 +1,3 @@
-var num = 3;
 function cubeNumber(number){
 
     if(number < 0){
@@ -12,8 +11,8 @@ function cubeNumber(number){
         var numCube = number ** 3;
         return numCube;
     }
-  
 }
 
+var num = -1;
 var cube = cubeNumber(num);
 console.log(cube);

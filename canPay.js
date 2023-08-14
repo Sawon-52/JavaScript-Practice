@@ -1,6 +1,6 @@
 function canPay(changeArray, totalDue) {
     if(changeArray.length == 0){
-        return ('Insert Some element in Array');
+        return ('Some elements must be placed in the Array');
     }
     else{
         var total =0;
