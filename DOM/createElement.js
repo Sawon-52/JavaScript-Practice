@@ -50,4 +50,3 @@ console.log(show)
 
 // remove style 
 newElement.style.backgroundColor = '';
-
