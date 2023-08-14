@@ -3,7 +3,7 @@ var newElement = document.createElement('div');
 console.log(newElement);
 
 var paraElement = document.createElement('p');
-console.log(paraElement);
+// console.log(paraElement);
 
 // paraElement.innerText = 'My name is mehedi hasan'
 
@@ -26,9 +26,16 @@ newElement.classList.add('box-4');
 // add many class 
 newElement.classList += ' name  valolage-na';
 // checked
-console.log(newElement.classList);
+// console.log(newElement.classList);
 
 
 // how to remove class
 newElement.classList.remove('valolage-na');
+
+// Add and remove and modify attribute 
+// add attribute
+newElement.setAttribute('data-attr', 'something');
+
+// remove attribute
+newElement.removeAttribute('data-attr')
 
