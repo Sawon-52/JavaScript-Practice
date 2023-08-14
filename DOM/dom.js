@@ -25,14 +25,22 @@ console.log(box2);
 // console.log(box2);
 
 
-// Method 03 select tag
-// const box3 = document.getElementsByTagName('h3');
-// //we get output HTMLCollection
-// console.log(box3);
+// Method 03 select tagName
+const box3 = document.getElementsByTagName('h3');
+//we get output HTMLCollection
+console.log(box3);
 
 // const box3 = document.querySelector('h3');
 // console.log(box3);
 
-const box3 = document.querySelectorAll('h3, p');
-//we get output NodeList
-console.log(box3);
+// const box3 = document.querySelectorAll('h3, p');
+// //we get output NodeList
+// console.log(box3);
+
+
+// we can select many element using this
+// attribute
+// pseudo class
+// children
+// parent
+
