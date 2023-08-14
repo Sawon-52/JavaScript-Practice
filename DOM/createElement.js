@@ -39,3 +39,15 @@ newElement.setAttribute('data-attr', 'something');
 // remove attribute
 newElement.removeAttribute('data-attr')
 
+
+// show all style method
+// console.dir(newElement.style);
+
+// how to add style using js
+newElement.style.backgroundColor = '#000';
+var show = newElement.style.backgroundColor;
+console.log(show)
+
+// remove style 
+newElement.style.backgroundColor = '';
+
