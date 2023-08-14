@@ -29,6 +29,7 @@ body{
 
 .box-1 >h3,
 .box-2 >h3,
-.box-3 >h3,p{
+.box-3 >h3,
+.box-3 >p{
     color: white;
 }
